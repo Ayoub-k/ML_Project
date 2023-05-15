@@ -5,7 +5,7 @@ from typing import List
 from setuptools import setup, find_packages
 
 
-EDITABLE_MODE = '-e .'
+MD = '-e .'
 
 def get_requires(file_path: str) -> List[str]:
     """Get requirements from a file and return them as a list
@@ -16,9 +16,9 @@ def get_requires(file_path: str) -> List[str]:
     Returns:
         List[str]: List of requirements
     """
-    with open(file_path, encoding='utf-8') as file_obj:
-        reqs = [line.strip() for line in file_obj.readlines() if line.strip() != EDITABLE_MODE]
-    return reqs
+    with open(file_path, encoding='utf-8') as file:
+        rqs = [ln.strip() for ln in file.readlines() if ln.strip() != MD and not ln.startswith('#')]
+    return rqs
 
 setup(
     name='ml_project',
