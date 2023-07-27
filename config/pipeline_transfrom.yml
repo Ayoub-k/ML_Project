@@ -1,0 +1,43 @@
+- step: sklearn.impute.SimpleImputer
+  name: impute_cat
+  params:
+    strategy: most_frequent
+  columns:
+    - gender
+    - race_ethnicity
+    - parental_level_of_education
+    - lunch
+    - test_preparation_course
+
+- step: sklearn.preprocessing.OneHotEncoder
+  name: one_encoder
+  columns:
+    - gender
+    - race_ethnicity
+    - parental_level_of_education
+    - lunch
+    - test_preparation_course
+
+- step: sklearn.preprocessing.StandardScaler
+  name: scaler_cat
+  params:
+    with_mean: False
+  columns:
+    - gender
+    - race_ethnicity
+    - parental_level_of_education
+    - lunch
+    - test_preparation_course
+
+- step: sklearn.impute.SimpleImputer
+  name: impute_num
+  params:
+    strategy: median
+  columns:
+    - writing_score
+    - reading_score
+- step: sklearn.preprocessing.StandardScaler
+  name: scaler_num
+  columns:
+    - writing_score
+    - reading_score

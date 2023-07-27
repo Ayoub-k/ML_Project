@@ -1,0 +1,14 @@
+- model: sklearn.tree.DecisionTreeRegressor
+  name: decision_tree_regressor
+  params:
+    criterion: ['squared_error', 'friedman_mse', 'absolute_error', 'poisson']
+- model: sklearn.ensemble.RandomForestRegressor
+  name: random_forest
+  params:
+    n_estimators: [8,16,32,64,128,256]
+- model: sklearn.ensemble.GradientBoostingRegressor
+  name: gradient_boosting_regressor
+  params: 
+    learning_rate: [.1,.01,.05,.001]
+    subsample: [0.6,0.7,0.75,0.8,0.85,0.9]
+    n_estimators: [8,16,32,64,128,256]

@@ -1,0 +1,54 @@
+[2023-07-06 09:20:14,540] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 09:20:14,543] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 09:20:14,552] - root - INFO - data is stored
+[2023-07-06 09:21:07,624] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 09:21:07,626] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 09:21:07,633] - root - INFO - data is stored
+[2023-07-06 09:21:27,536] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 09:21:27,538] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 09:21:27,544] - root - INFO - data is stored
+[2023-07-06 09:22:57,202] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 09:22:57,205] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 09:22:57,211] - root - INFO - data is stored
+[2023-07-06 09:26:23,308] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 09:26:23,310] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 09:26:23,317] - root - INFO - data is stored
+[2023-07-06 09:27:06,636] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 09:27:06,638] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 09:27:06,645] - root - INFO - data is stored
+[2023-07-06 09:29:18,824] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 09:29:18,826] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 09:29:18,834] - root - INFO - data is stored
+[2023-07-06 12:05:54,060] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 12:05:54,062] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 12:05:54,067] - root - INFO - data is stored
+[2023-07-06 12:06:19,633] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 12:06:19,634] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 12:06:19,638] - root - INFO - data is stored
+[2023-07-06 18:23:30,547] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-06 18:23:30,549] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-06 18:23:30,553] - root - INFO - data is stored
+[2023-07-06 18:24:15,757] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/StudentsPerformance.csv
+[2023-07-06 18:24:15,760] - root - INFO - data is splited X_train: (800, 8), X_test: (200, 8)
+[2023-07-06 18:24:15,765] - root - INFO - data is stored
+[2023-07-06 18:27:44,621] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/StudentsPerformance.csv
+[2023-07-06 18:27:44,625] - root - INFO - data is splited X_train: (800, 8), X_test: (200, 8)
+[2023-07-06 18:27:44,631] - root - INFO - data is stored
+[2023-07-06 18:39:15,013] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/StudentsPerformance.csv
+[2023-07-06 18:39:15,017] - root - INFO - data is splited X_train: (800, 8), X_test: (200, 8)
+[2023-07-06 18:39:15,039] - root - INFO - data is stored
+[2023-07-06 18:41:05,567] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/StudentsPerformance.csv
+[2023-07-06 18:41:05,570] - root - INFO - data is splited X_train: (800, 8), X_test: (200, 8)
+[2023-07-06 18:41:05,579] - root - INFO - data is stored
+[2023-07-06 18:47:38,619] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/StudentsPerformance.csv
+[2023-07-06 18:47:38,621] - root - INFO - data is splited X_train: (800, 8), X_test: (200, 8)
+[2023-07-06 18:47:38,631] - root - INFO - data is stored
+[2023-07-06 19:07:56,217] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/StudentsPerformance.csv
+[2023-07-06 19:07:56,220] - root - INFO - data is splited X_train: (800, 8), X_test: (200, 8)
+[2023-07-06 19:07:56,226] - root - INFO - data is stored
+[2023-07-06 19:08:54,021] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/StudentsPerformance.csv
+[2023-07-06 19:08:54,024] - root - INFO - data is splited X_train: (800, 8), X_test: (200, 8)
+[2023-07-06 19:08:54,036] - root - INFO - data is stored
+[2023-07-06 19:17:40,731] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/StudentsPerformance.csv
+[2023-07-06 19:17:40,735] - root - INFO - data is splited X_train: (800, 8), X_test: (200, 8)
+[2023-07-06 19:17:40,741] - root - INFO - data is stored

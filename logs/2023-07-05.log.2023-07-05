@@ -1,0 +1,63 @@
+[2023-07-05 13:17:49,850] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 13:17:49,853] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 13:17:49,860] - root - INFO - data is stored
+[2023-07-05 13:31:43,623] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 13:31:43,625] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 13:31:43,630] - root - INFO - data is stored
+[2023-07-05 13:32:21,969] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 13:32:21,971] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 13:32:21,979] - root - INFO - data is stored
+[2023-07-05 13:52:35,566] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 13:52:35,567] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 13:52:35,570] - root - INFO - data is stored
+[2023-07-05 13:53:42,020] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 13:53:42,021] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 13:53:42,025] - root - INFO - data is stored
+[2023-07-05 13:55:02,470] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 13:55:02,471] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 13:55:02,474] - root - INFO - data is stored
+[2023-07-05 18:26:07,154] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 18:26:07,156] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 18:26:07,162] - root - INFO - data is stored
+[2023-07-05 18:30:53,993] - matplotlib - DEBUG - matplotlib data path: /home/ay/FullStackMLDataScience/Projects/ML_Project/env/lib/python3.9/site-packages/matplotlib/mpl-data
+[2023-07-05 18:30:54,006] - matplotlib - DEBUG - CONFIGDIR=/home/ay/.config/matplotlib
+[2023-07-05 18:30:54,009] - matplotlib - DEBUG - interactive is False
+[2023-07-05 18:30:54,010] - matplotlib - DEBUG - platform is linux
+[2023-07-05 18:30:54,127] - matplotlib - DEBUG - CACHEDIR=/home/ay/.cache/matplotlib
+[2023-07-05 18:30:54,133] - matplotlib.font_manager - DEBUG - Using fontManager instance from /home/ay/.cache/matplotlib/fontlist-v330.json
+[2023-07-05 19:06:35,593] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 19:06:35,595] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 19:06:35,602] - root - INFO - data is stored
+[2023-07-05 19:16:52,403] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 19:16:52,405] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 19:16:52,410] - root - INFO - data is stored
+[2023-07-05 19:17:28,275] - root - INFO - Transform data for handling outlier with transformer
+[2023-07-05 19:24:08,246] - root - INFO - Transform data for handling outlier with transformer
+[2023-07-05 19:24:13,061] - root - INFO - Transform data for handling outlier with transformer
+[2023-07-05 19:53:23,897] - root - INFO - Transform data for handling outlier with transformer
+[2023-07-05 19:54:07,631] - root - INFO - Transform data for handling outlier with transformer
+[2023-07-05 19:54:39,729] - root - INFO - Transform data for handling outlier with transformer
+[2023-07-05 19:54:39,734] - root - INFO - Transform data for handling outlier with statistics
+[2023-07-05 19:55:03,315] - root - INFO - Transform data for handling outlier with transformer
+[2023-07-05 19:55:03,321] - root - INFO - Transform data for handling outlier with statistics
+[2023-07-05 19:58:10,647] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 19:58:10,649] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 19:58:10,657] - root - INFO - data is stored
+[2023-07-05 20:05:01,316] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 20:05:01,319] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 20:05:01,324] - root - INFO - data is stored
+[2023-07-05 20:05:47,968] - root - INFO - Transform data for handling outlier with transformer
+[2023-07-05 20:05:47,973] - root - INFO - Transform data for handling outlier with statistics
+[2023-07-05 20:47:11,215] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 20:47:11,218] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 20:47:11,224] - root - INFO - data is stored
+[2023-07-05 20:47:57,906] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 20:47:57,908] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 20:47:57,915] - root - INFO - data is stored
+[2023-07-05 20:54:00,077] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 20:54:00,080] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 20:54:00,086] - root - INFO - data is stored
+[2023-07-05 22:14:39,037] - root - INFO - Transform data for handling outlier with transformer
+[2023-07-05 22:28:08,842] - root - INFO - data is loaded from /home/ay/FullStackMLDataScience/Projects/ML_Project/data/placement.csv
+[2023-07-05 22:28:08,843] - root - INFO - data is splited X_train: (800, 3), X_test: (200, 3)
+[2023-07-05 22:28:08,847] - root - INFO - data is stored

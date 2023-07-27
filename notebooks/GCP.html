@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="file" id="modelFileInput" accept=".pkl" />
+    <button onclick="loadModel()">Load Model</button>
+
+    <script>
+    function loadModel() {
+        const fileInput = document.getElementById('modelFileInput');
+        const file = fileInput.files[0];
+        console.log('file:', file);
+        
+        const reader = new FileReader();
+        reader.onload = function (event) {
+        const modelData = event.target.result;
+            // Process the loaded model data
+            console.log('modelData:', modelData);
+            processModelData(modelData);
+        };
+
+        reader.readAsText(file);
+    }
+
+    function processModelData(modelData) {
+        // Parse the JSON data
+        /*const model = JSON.parse(modelData);
+
+        // Use the loaded model for prediction or further processing
+        // Example:
+        const input = 1.5; // Example input
+        const prediction = model.predict([input]);
+
+        console.log('Input:', input);
+        console.log('Prediction:', prediction); */
+    }
+    </script>
+
+    </body>
+</html>

@@ -1,13 +1,34 @@
 """This file for configuration"""
-
 from datetime import datetime
 import yaml
-from paths import Paths
-from constants import PathFolder
+from src.utils.paths import Paths
+from src.utils.constants import PathFolder
 from dotenv import load_dotenv
 
 class Config:
     """Class for getting configuration"""
+
+    @staticmethod
+    def config_file(file_name: str='config.yml', encoding: str = 'utf-8') -> dict:
+        """Read config form yml file in root of project config.yml
+
+        Raises:
+            Exception: _description_
+            Exception: _description_
+
+        Returns:
+            dict: dict
+        """
+        try:
+            config_path = Paths.get_file_path(f"config/{file_name}")
+            with open(config_path, 'r', encoding=encoding) as config_file:
+                config = yaml.safe_load(config_file)
+                return config
+        except FileNotFoundError:
+            raise Exception(f"File {file_name} not found.") from FileNotFoundError
+        except yaml.YAMLError as error:
+            raise Exception(f"Error reading config file {file_name}: {error}") from error
+
 
     @staticmethod
     def get_config(config_path: str, encoding: str = 'utf-8') -> dict:
@@ -26,11 +47,9 @@ class Config:
                 config = yaml.safe_load(config_file)
                 return config
         except FileNotFoundError:
-            print(f"File {config_path} not found.")
-            return {}
+            raise Exception(f"File {config_path} not found.") from FileNotFoundError
         except yaml.YAMLError as error:
-            print(f"Error reading configuration file {config_path}: {error}")
-            return {}
+            raise Exception(f"Error reading config file {config_path}: {error}") from error
 
 
     @staticmethod
@@ -65,6 +84,9 @@ class TimeFormatter:
 
         Returns:
             str: The formatted datetime string.
+
+        Raises:
+            ValueError: If an invalid datetime format string is provided.
         """
         try:
             formatted_time = datetime.now().strftime(pattern)
